@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Project_Tikchoret.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+           
+        }
+        .auto-style2 {
+            height: 26px;
+        }
+        .auto-style3 {
+            height: 1px;
+        }
+        .auto-style5 {
+        }
+        .auto-style7 {
+            height: 21px;
+        }
+        .auto-style8 {
+            height: 21px;
+            width: 19%;
+        }
+        .auto-style9 {
+            height: 21px;
+            width: 15%;
+        }
+        .auto-style10 {
+        }
+        .auto-style12 {
+            color: #FFFF00;
+            height: 93px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2" colspan="2">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/nike-store-berlin-13.jpg" Height="299px" style="margin-top: 0px" Width="1022px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3" colspan="2" style="background-color: #FF6600; font-family: 'Berlin Sans FB Demi'">
+                    <table cellpadding="0" cellspacing="0" class="auto-style1">
+                        <tr>
+                            <td style="color: #FFFF00; text-align: center;" class="auto-style9">
+                                <asp:LinkButton ID="LinkButton1_LOGIN" runat="server" style="text-align: center" OnClick="LinkButton1_LOGIN_Click" PostBackUrl="~/Login.aspx">LOGIN</asp:LinkButton>
+                            </td>
+                            <td class="auto-style9" style="text-align: center">
+                                <asp:LinkButton ID="LinkButton2_Home" runat="server" style="text-align: center" PostBackUrl="~/Home.aspx">Home</asp:LinkButton>
+                            </td>
+                            <td class="auto-style8">
+                                <asp:LinkButton ID="LinkButton3_Store" runat="server" style="text-align: right" PostBackUrl="~/store.aspx">STORE</asp:LinkButton>
+                            </td>
+                            <td class="auto-style7"></td>
+                            <td width="20%" class="auto-style7">
+                                <asp:LinkButton ID="LinkButton5_help" runat="server">HELP</asp:LinkButton>
+                            </td>
+                            <td width="20%" class="auto-style7">
+                                <asp:LinkButton ID="LinkButton4_contact_us" runat="server" PostBackUrl="~/Contact us.aspx">Contact US</asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="justify" valign="top" style="background-color: #FF6600; font-family: 'Berlin Sans FB Demi'" class="auto-style10">
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p class="auto-style12">
+                            bbdfdfbfdb</p>
+                        <p class="auto-style12">
+                            &nbsp;</p>
+                        <p class="auto-style12">
+                            &nbsp;</p>
+                        <p class="auto-style12">
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td width="25%" align="center valign="top" style="background-color: #FF6600; font-family: 'Berlin Sans FB Demi'">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/san2s-titre.png" />
+                    <br />
+                    <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/nike-baskets-md-runner-suede-chaussure-homme.jpg" Width="200px" />
+                    <br />
+                    <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/jordan-trainer-1-banned.jpg" Width="200px" />
+                    <br />
+                    <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/nikemags2015.jpg.png" Width="200px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5" colspan="2" style="background-color: #FF6600; font-family: 'Berlin Sans FB Demi'; text-align: center;">COPYRIGHT yanivbo@blogspot.com</td>
+            </tr>
+        </table>
+    <div>
+       
+    </div>
+    </form>
+</body>
+</html>

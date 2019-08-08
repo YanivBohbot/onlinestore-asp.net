@@ -1,0 +1,6 @@
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\bin\Project_Tikchoret.dll.config
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\bin\Project_Tikchoret.dll
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\bin\Project_Tikchoret.pdb
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\obj\Debug\Project_Tikchoret.csprojResolveAssemblyReference.cache
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\obj\Debug\Project_Tikchoret.dll
+c:\users\yaniv\documents\visual studio 2013\Projects\Project_Tikchoret\Project_Tikchoret\obj\Debug\Project_Tikchoret.pdb

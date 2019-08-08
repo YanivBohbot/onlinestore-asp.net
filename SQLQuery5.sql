@@ -1,0 +1,1 @@
+﻿alter table Users alter column LastName nvarchar(50)
